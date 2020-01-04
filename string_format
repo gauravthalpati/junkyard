@@ -5,3 +5,12 @@ print ("The {} {} ".format("fox","quick"))
 print ("The {1} {0} ".format("fox","quick"))
 print ("The {q} {b} {f}".format(b="brown",q="quick",f="fox"))
 print ("The {q} {q} {q}".format(b="brown",q="quick",f="fox"))
+
+
+orig = "Sam"
+new =  4*" Sam"
+
+b=orig.lower()
+b1=orig.split("a")
+print (b)
+print (b1)
