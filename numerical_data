@@ -1,0 +1,7 @@
+
+# Number Formatting 
+r=56/233
+print("Original",r)
+new="{val:10.3f}".format(val=r)
+print (new)
+print(len(new))
