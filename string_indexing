@@ -1,0 +1,12 @@
+orig = "Sam"
+
+temp = orig[1:3]
+#print (temp)
+
+first =orig[0]
+
+new = first + temp
+print(new)
+
+new1 = "P" + temp
+print(new1)
