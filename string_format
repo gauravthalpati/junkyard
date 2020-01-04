@@ -1,0 +1,7 @@
+
+#print ("The brown fox quick")
+
+print ("The {} {} ".format("fox","quick"))
+print ("The {1} {0} ".format("fox","quick"))
+print ("The {q} {b} {f}".format(b="brown",q="quick",f="fox"))
+print ("The {q} {q} {q}".format(b="brown",q="quick",f="fox"))
