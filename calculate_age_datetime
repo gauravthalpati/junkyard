@@ -13,5 +13,4 @@ yr=datetime.datetime.today()
 gap = 100 - age
 newyr = yr.year + gap
 
-print (name + " will be 100" + " after " , gap)
-print ("in the year " , newyr)
+print ( name + " will be 100 after " + str(gap) + " years in " + str(newyr) )
