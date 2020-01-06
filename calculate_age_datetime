@@ -1,0 +1,17 @@
+import datetime
+
+name = "Rakesh"
+age=30
+#print ("My name is", name + " and age is" , age )
+
+tme=datetime.datetime.now()
+#print ("Current time is",tme)
+
+yr=datetime.datetime.today()
+#print ("Current time is",yr.year)
+
+gap = 100 - age
+newyr = yr.year + gap
+
+print (name + " will be 100" + " after " , gap)
+print ("in the year " , newyr)
