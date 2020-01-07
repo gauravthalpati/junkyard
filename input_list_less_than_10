@@ -1,0 +1,19 @@
+# https://www.practicepython.org/exercise/2014/02/15/03-list-less-than-ten.html
+# Program to print numbers less than 10 in a list
+
+inp_list =  [ 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+#print ("The list is" , inp_list)
+#print ("The last item in list is" , inp_list[-1])
+
+# Code block to calculate numbers less than 10
+
+length = len(inp_list)
+#print (" The length of list is" , length)
+
+i=0
+while i < length :
+        if inp_list[i] < 10 :
+            print (inp_list[i])
+            i += 1
+    
