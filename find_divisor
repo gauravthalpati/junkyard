@@ -1,0 +1,13 @@
+# https://www.practicepython.org/exercise/2014/02/26/04-divisors.html
+# Program to print all divisors of input number
+
+inp=int(input("Please provide a number to divide : "))
+rj=inp + 1
+
+for i in range(1,rj) :
+    rem = inp % i
+    #print(i,rem)
+    if rem == 0 :
+        print (str(i) + " is divisor of " + str(inp))
+    else :
+        print (str(i) + " is not divisor of " + str(inp))
