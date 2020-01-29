@@ -1,0 +1,9 @@
+# Function to print name given as input
+
+nm=input("Please enter the name : ")
+
+def myfunc(name):
+    print ("Hello",name)
+    
+
+myfunc(nm)
