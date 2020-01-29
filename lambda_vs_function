@@ -1,0 +1,22 @@
+# Function to calculate cube of a number
+# try to do same using lambda
+
+num = int(input ("Enter the number to calculate cube : "))
+
+#########################################
+########### Code for function  ##########
+def myfunc(x):
+    return x*x*x
+    
+out = myfunc(num)
+print ("using function the output is", out)
+############################################
+
+##########################################
+###### Code for Labda ##################
+
+
+out = lambda x: x*x*x
+print ("using lambda the output is", out(num))
+
+########################################
