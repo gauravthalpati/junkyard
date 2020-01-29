@@ -1,0 +1,12 @@
+# Function to handle multiple inputs
+
+
+def myfunc(x,y,z):
+    if z == "True" :
+        return x
+    else : 
+        return y
+    
+
+z = myfunc("Right","Wrong","FF")
+print(z)
