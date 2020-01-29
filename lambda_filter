@@ -1,0 +1,10 @@
+# lambda with filter condition to identify even numbers
+
+# Example
+#out = lambda x : x*x
+#print (out(2))
+
+ll = [ 1,2,3,4,5]
+
+out = list(filter(lambda x : (x%2 == 0), ll))
+print ("Even numbers are " , out)
