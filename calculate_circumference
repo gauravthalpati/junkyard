@@ -1,0 +1,28 @@
+# Program to create 
+# class
+# object
+# attribute - Class as well as self
+# Method (i.e function within a class)
+
+
+class circle():
+    # class object attribute
+    pi = 3.14
+    
+    def __init__(self,radius):
+        # Self Attribute
+        self.radius = radius
+        self.area = self.radius*self.radius*self.pi
+    
+    # method 
+    def get_cir(self):
+        return self.radius*circle.pi*2
+
+circle_obj = circle(30)
+#print (type (circle_obj))
+print ("The value of pi is " , circle_obj.pi)
+print ("The value of radius is ", circle_obj.radius)
+
+out = circle_obj.get_cir()
+print ("The circumference is " ,out)
+print ("The area is " ,circle_obj.area)
